@@ -4,7 +4,10 @@ project:
 website:
   title: "IS428_VA4BI_Project"
   navbar:
-    left:
+    left: 
+      - text: Introduction
+        href: introduction.qmd
+    right:
       - href: index.qmd
         text: Home
       - about.qmd
@@ -12,7 +15,7 @@ website:
 format:
   html:
     theme:
-      - cosmo
+      - flatly
       - brand
     css: styles.css
     toc: true
